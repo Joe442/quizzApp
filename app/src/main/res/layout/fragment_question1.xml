@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.Question1"
+    android:orientation="vertical">
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/answer_a"
+                        android:layout_margin="4dp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Axel Bellinghausen"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        style="@style/CustomView"/>
+
+                    <RadioButton
+                        android:id="@+id/answer_b"
+                        android:layout_margin="4dp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Axel Bellinghausen"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        style="@style/CustomView"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/answer_c"
+                        android:layout_margin="4dp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Axel Bellinghausen"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        style="@style/CustomView"/>
+
+                    <RadioButton
+                        android:id="@+id/answer_d"
+                        android:layout_margin="4dp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Axel Bellinghausen"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        style="@style/CustomView"/>
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/submit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"
+                    android:text = "Antwort abgeben"
+                    style="@style/CustomView"
+                    android:gravity="center"
+                    android:padding = "2dp"
+                    android:layout_margin="16dp"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+
+        </RadioGroup>
+
+
+
+
+
+
+
+</LinearLayout>
